@@ -1,4 +1,4 @@
-package com.smil.config;
+package com.tutorial.framework.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,7 +18,7 @@ public class SwaggerConfig {
                 .apiInfo(productApiInfo())
 //                .groupName("James")
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.smil"))
+                .apis(RequestHandlerSelectors.basePackage("com.tutorial"))
                 //.paths(PathSelectors.ant("/hello/**"))
                 .build();//构建者模式
 

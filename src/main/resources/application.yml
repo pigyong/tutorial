@@ -8,7 +8,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis:
-  type-aliases-package: com.smil.dao
+  type-aliases-package: com.tutorial.userinterface.vo
   mapper-locations: classpath:mappers/*.xml
 server:
   port: 80
